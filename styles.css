@@ -1,0 +1,18 @@
+.glassy-div {
+    width: 600px;
+    height: 300px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.2); /* Glassy effect with transparency */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+    backdrop-filter: blur(10px); /* Frosted glass effect */
+    /* text-align: center; */
+}
+
+#result {
+    /* padding-top:5%; */
+    color: hwb(237 1% 3%);
+    font-size:large;
+    background: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(10px);
+}
